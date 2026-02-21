@@ -38,7 +38,6 @@ rollBtn.addEventListener("click", () => {
         currentScore += dice;
         document.querySelector(`#current-score--${currentPlyr}`).textContent = currentScore;
     }
-
 });
 
 holdBtn.addEventListener("click", () => {
